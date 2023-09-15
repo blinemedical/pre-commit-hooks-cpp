@@ -23,7 +23,7 @@ repos:
 ## clang-format
 
 This requires clang-format to be installed, e.g. `sudo apt install
-clang-format`. The default setup uses the Google style guide and will format all
+clang-format`. The default setup uses a local file style guide and will check the format all
 C/C++ files and headers found in the repo, however other arguments and
 particular files can specified.
 
