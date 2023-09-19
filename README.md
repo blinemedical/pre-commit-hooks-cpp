@@ -13,7 +13,7 @@ To use these hooks, simply place the following in you `.pre-commit-config.yaml`
 ```yaml
 repos:
 -   repo: https://github.com/blinemedical/pre-commit-hooks-cpp
-    rev: master
+    rev: main
     hooks:
     -   id: clang-format
     -   id: cpplint
@@ -29,7 +29,7 @@ particular files can specified.
 
 ```yaml
 -   repo: https://github.com/blinemedical/pre-commit-hooks-cpp
-    rev: master
+    rev: main
     hooks:
     -   id: clang-format
     #   args: [--option1, -option2=abc]
@@ -45,7 +45,7 @@ found in the repo, however other arguments and particular files can specified.
 
 ```yaml
 -   repo: https://github.com/blinemedical/pre-commit-hooks-cpp
-    rev: master
+    rev: main
     hooks:
     -   id: cpplint
     #   args: [--option1, -option2=abc]
@@ -62,7 +62,7 @@ specified.
 
 ```yaml
 -   repo: https://github.com/blinemedical/pre-commit-hooks-cpp
-    rev: master
+    rev: main
     hooks:
     -   id: cppcheck
     #   args: [--option1, -option2=abc]
