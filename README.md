@@ -12,7 +12,7 @@ To use these hooks, simply place the following in you `.pre-commit-config.yaml`
 
 ```yaml
 repos:
--   repo: https://github.com/bmorcos/pre-commit-hooks-cpp
+-   repo: https://github.com/blinemedical/pre-commit-hooks-cpp
     rev: master
     hooks:
     -   id: clang-format
@@ -28,7 +28,7 @@ C/C++ files and headers found in the repo, however other arguments and
 particular files can specified.
 
 ```yaml
--   repo: https://github.com/bmorcos/pre-commit-hooks-cpp
+-   repo: https://github.com/blinemedical/pre-commit-hooks-cpp
     rev: master
     hooks:
     -   id: clang-format
@@ -44,7 +44,7 @@ setup uses the `--verbose=3` flag and will check all C/C++ files and headers
 found in the repo, however other arguments and particular files can specified.
 
 ```yaml
--   repo: https://github.com/bmorcos/pre-commit-hooks-cpp
+-   repo: https://github.com/blinemedical/pre-commit-hooks-cpp
     rev: master
     hooks:
     -   id: cpplint
@@ -61,7 +61,7 @@ and headers found in the repo, however other arguments and particular files can
 specified.
 
 ```yaml
--   repo: https://github.com/bmorcos/pre-commit-hooks-cpp
+-   repo: https://github.com/blinemedical/pre-commit-hooks-cpp
     rev: master
     hooks:
     -   id: cppcheck
